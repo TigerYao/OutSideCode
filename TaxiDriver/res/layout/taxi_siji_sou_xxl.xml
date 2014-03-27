@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/taxi_me_xxl"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_xxl"
+            android:onClick="onClick"
+            android:textColor="#CFCFCF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/taxi_dache_xxl"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/titlebarbk"
+            android:onClick="onClick"
+            android:text="听单中"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/taxi_more_xxl"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+        
+            android:background="@drawable/gengduo_xxl"
+            android:onClick="onClick"
+            android:textColor="#CFCFCF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/tiaokuang_huang_xxl" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/taxi_time_xxl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/taxi_qiangdan_xxl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/taxi_zaixian_xxl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:textSize="18sp" />
+        </LinearLayout> -->
+
+        <ListView
+            android:id="@+id/infomation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1.0"
+            android:divider="@android:color/white"
+            android:dividerHeight="5dp" >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/taxi_all_xxl"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/all"
+                android:text="全部"
+                android:textColor="@android:color/white"
+                 android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/taxi_tingdan_xxl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/getmenu"
+                android:text="听单中"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp" />
+
+            <Button
+                 android:layout_margin="10dp"
+                   android:textColor="@android:color/white"
+                 android:layout_gravity="right"
+                android:id="@+id/taxi_shouche_xxl"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+              android:layout_alignParentRight="true"
+                android:background="@drawable/all"
+                android:onClick="onClick"
+                android:layout_alignParentBottom="true"
+                android:text="收车"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

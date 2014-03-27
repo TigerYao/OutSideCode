@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="欢迎"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/tiaokuang_huang_xxl" />
+
+    <ImageView
+        android:id="@+id/taxi_denglu_img_xxl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/img_xxl" />
+
+    <EditText
+        android:id="@+id/login_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onClick"
+        android:text="登陆"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/taxi_wangjimima_xxl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:gravity="right"
+        android:text="忘记密码？" />
+
+    <TextView
+        android:id="@+id/taxi_haimeizhuce_xxl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="还没有注册" />
+
+    <Button
+        android:id="@+id/login_go_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+         android:onClick="onClick"
+        android:text="马上注册"
+        android:textSize="18dp" />
+
+</LinearLayout>

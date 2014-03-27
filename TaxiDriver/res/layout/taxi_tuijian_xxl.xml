@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    
+     android:id="@+id/taxi_tuijie_fanhui_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.2"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="返回"
+    />
+  <TextView 
+     android:id="@+id/taxi_tuijian_one_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.8"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="推荐"
+     android:gravity="center"
+     />
+</LinearLayout>        
+<View 
+    android:background="@drawable/tiaokuang_huang_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    android:text="推荐乘客"
+     android:id="@+id/taxi_tuijie_chengke_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+    
+    />
+  <Button
+     android:id="@+id/taxi_tuijie_siji_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="推荐司机"
+     android:layout_gravity="center"
+     android:gravity="center"
+     />
+</LinearLayout>   
+    <EditText
+       android:layout_margin="15dp"
+      
+      android:id="@+id/taxi_shuruchengke_num_xxl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+      <Button 
+       android:layout_margin="10dp"
+       android:id="@+id/taxi_querentuijie_xxl"
+       android:text="确认推荐"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"/>
+     <EditText
+      android:layout_margin="15dp"
+      android:focusable="true"
+      android:id="@+id/taxi_stuijie_tishi_xxl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="提交号码后，系统会自动向乘客发送乘客端下载短信，乘客可直接点击链接或应用市场下载（”注：推荐规则详见荣誉榜“）"
+      />
+</LinearLayout>

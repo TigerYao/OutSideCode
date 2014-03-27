@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    
+     android:id="@+id/taxi_didizhinan_fanhui_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.2"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="返回"
+    />
+  <TextView 
+     android:id="@+id/taxi_dache_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.8"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="嘀嘀指南"
+     android:gravity="center"
+     />
+</LinearLayout>        
+<View 
+    android:background="@drawable/tiaokuang_huang_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+<TextView 
+    android:id="@+id/taxi_bangzhu_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>

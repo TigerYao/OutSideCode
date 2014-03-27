@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    
+     android:id="@+id/taxi_chakangeren_fanhui_one_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.2"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="返回"
+    />
+  <TextView 
+  
+     android:layout_width="0dp"
+     android:layout_weight="0.8"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="查看个人资料"
+     android:gravity="center"
+     />
+</LinearLayout>        
+<View 
+    android:background="@drawable/tiaokuang_huang_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>     
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+ 
+     android:id="@+id/taxi_touxiang_one_xxl"
+     android:text="头像"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <View 
+     android:layout_width="0dp"
+     android:layout_weight="0.5"
+     android:layout_height="10dp"/> 
+<ImageView 
+    android:layout_width="0dp"
+    android:layout_weight="0.3"
+    android:layout_height="wrap_content"
+    android:id="@+id/taxi_chakan_img_one_xxl"
+    />  
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+  
+   
+     android:text="姓名"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <TextView 
+     android:layout_gravity="center"
+     android:gravity="center"
+   android:id="@+id/taxi_name_one_xxl"
+     
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/> 
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+     
+   
+     android:text="公司"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <TextView 
+     android:layout_gravity="center"
+     android:gravity="center"
+   android:id="@+id/taxi_gongsi_one_xxl"
+     
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/> 
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+     
+     android:text="车牌号"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <TextView 
+     android:layout_gravity="center"
+     android:gravity="center"
+   android:id="@+id/taxi_chepaihao_one_xxl"
+     
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/> 
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+    
+     android:text="准驾证号"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <TextView 
+     android:layout_gravity="center"
+     android:gravity="center"
+   android:id="@+id/taxi_zunjiazhenghao_one_xxl"
+     
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/> 
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <TextView 
+     android:text="手机"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/>
+ <TextView 
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:id="@+id/taxi_shouji_two_xxl"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="0.2"
+     android:textSize="18sp"/> 
+
+</LinearLayout>
+<TextView 
+    android:text="如需修改，请联系客服400-000-1999"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

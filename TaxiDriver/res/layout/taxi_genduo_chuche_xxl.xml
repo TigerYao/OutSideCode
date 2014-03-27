@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    android:text="返回"
+     android:id="@+id/taxi_chuche_genduo_fanhui_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.2"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+    
+    />
+  <TextView
+     android:id="@+id/taxi_chuche_gengduo_one_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="0.8"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="更多"
+     android:layout_gravity="center"
+     android:gravity="center"
+     />
+</LinearLayout>   
+<View 
+    android:background="@drawable/tiaokuang_huang_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/> 
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    android:text="推荐"
+     android:id="@+id/taxi_chuche_tuijie_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+    
+    />
+  <Button
+     android:id="@+id/taxi_chuche_rongyubang_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="荣誉榜"
+     android:layout_gravity="center"
+     android:gravity="center"
+     />
+</LinearLayout>   
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    android:text="路况"
+     android:id="@+id/taxi_chuche_lukuang_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+    
+    />
+  <Button
+     android:id="@+id/taxi_chuche_didizhinan_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="嘀嘀指南"
+     android:layout_gravity="center"
+     android:gravity="center"
+     />
+</LinearLayout>  
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <Button 
+    android:text="嘀嘀消息"
+     android:id="@+id/taxi_chuche_didixiaoxi_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+    
+    />
+  <Button
+     android:id="@+id/taxi_chuche_didishezhi_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:text="嘀嘀设置"
+     android:layout_gravity="center"
+     android:gravity="center"
+     />
+</LinearLayout>  
+ <LinearLayout 
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+   <Button 
+       android:text="出车"
+     android:textSize="18sp"
+     android:id="@+id/taxi_shouche_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"/>
+ </LinearLayout>
+</LinearLayout>

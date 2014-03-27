@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent" >
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/title_layer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/titlebk"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/taxi_fanhui_xxl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/backbk" />
+
+        <TextView
+            android:id="@+id/taxi_didi_xxl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/title_layer"
+        android:background="#D000"
+        android:minWidth="130dip"
+        android:orientation="vertical"
+        android:padding="6dp" >
+
+        <Spinner
+            android:id="@+id/layers_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="交通路况" />
+    </LinearLayout>
+
+</RelativeLayout>

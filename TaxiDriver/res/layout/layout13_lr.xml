@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+
+    <LinearLayout
+        android:id="@+id/tool_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <!-- 标题 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/lay13_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/tab_bus_lr_thirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableTop="@drawable/tenbuslayout"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/tab_car_lr_thirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:button="@null"
+                    android:drawableTop="@drawable/tencarlayout"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/tab_walk_lr_thirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:button="@null"
+                    android:drawableTop="@drawable/tenwalklayout"
+                    android:gravity="center" />
+            </RadioGroup>
+        </LinearLayout>
+        <!-- s输入框 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/history_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/addone_lr_thirteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@null"
+                        android:src="@drawable/endicon" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/startpoint"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@null"
+                        android:dropDownVerticalOffset="1.0dip"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textAutoComplete"
+                        android:maxLength="20"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="37.0dip"
+                        android:hint="起始点"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="16.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/history_bg"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/addtwo_lr_thirteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@null"
+                        android:src="@drawable/starticon" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/endpoint"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@null"
+                        android:dropDownVerticalOffset="1.0dip"
+                        android:hint="目的地"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textAutoComplete"
+                        android:maxLength="20"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="37.0dip"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/lastbig_bn_lr_thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@null"
+                android:visibility="gone"
+                android:src="@drawable/fanhuibg" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/search_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/query" />
+    </LinearLayout>
+    <!-- 地图 -->
+ <include layout="@layout/basicmap_activity" />
+</LinearLayout>

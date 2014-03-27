@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小蜜蜂</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="layers_array">
+        <item>二维图</item>
+        <item>卫星图</item>
+    </string-array>
+    <string-array name="settings_items">
+        <item>反馈意见</item>
+        <item>产品更新</item>
+        <item>免责声明</item>
+        <item>更换账户</item>
+    </string-array>
+
+</resources>

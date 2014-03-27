@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.0">
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="据您1.2公里"
+    android:id="@+id/taxi_juli_xxl"/>  
+<ListView 
+    android:id="@+id/taxi_lis_xxl"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.0"/>
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="向上滑动查看地图"
+    android:id="@+id/taxi_juli_ditu_btn_xxl"/>  
+</LinearLayout> 
+ <LinearLayout 
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="0.1">
+ <Button 
+     android:text="全部"
+     android:textSize="18sp"
+     android:id="@+id/taxi_sousuo_all_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"/>
+  <Button 
+      android:text="抢单"
+     android:textSize="18sp"
+     android:id="@+id/taxi_sousuo_tingdan_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"/>
+   <Button 
+       android:text="收车"
+     android:textSize="18sp"
+     android:id="@+id/taxi_sousuo_shouche_xxl"
+     android:layout_width="0dp"
+     android:layout_weight="1.0"
+     android:layout_height="wrap_content"/>
+ </LinearLayout>
+</LinearLayout>
